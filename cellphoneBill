@@ -88,23 +88,23 @@ public class Teste {
                 // compute bill based on the customer's plan selection
                 if (Accounts[customer][SELECTION].equals("Plan-A")) {
                     bill = computeBill (GBused, PLAN[A][LIMIT], PLAN[A][PRICE]);  
-                    break;
+                    continue;
                 } 
                 
                 // complete the coding for Plan-B, Plan-C, and Plan-D
                 if (Accounts[customer][SELECTION].equals("Plan-B")) {
                     bill = computeBill (GBused, PLAN[B][LIMIT], PLAN[B][PRICE]);                   
-                    break;
+                    continue;
                 } 
                 
                 if (Accounts[customer][SELECTION].equals("Plan-C")) {
                     bill = computeBill (GBused, PLAN[C][LIMIT], PLAN[C][PRICE]);                   
-                    break;
+                    continue;
                 } 
                 
                 if (Accounts[customer][SELECTION].equals("Plan-D")) {
                     bill = computeBill (GBused, PLAN[D][LIMIT], PLAN[D][PRICE]);                   
-                    break;
+                    continue;
                 } 
                 
                 // convert the bill to a String and save into the array
